@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(235, 235, 231);
+    margin: auto;
+    max-width: 1000px;
+    background-image: url("https://i.ibb.co/4N4j6CT/white-painted-wall-texture-background.jpg");
+    background-attachment: fixed;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+    background-size: cover;
+}
+
+.header {
+    color: rgb(87, 87, 125);
+    background-color: #dcdcda;
+    padding: 10px;
+    font-weight: normal;
+    margin: 10px;
+    box-shadow: 5px 5px 11px -4px #34344a;
+    margin: 10px;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    background-color: #6b5592;
+    padding-left: 0px;
+    box-shadow: 5px 5px 11px -4px #34344a;
+    margin: 10px;
+}
+.list__item{
+    margin: 0 auto;
+}
+.list__link {
+    
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;
+    color: #eae2e2;
+}
+
+.list__link:visited {
+    color: rgb(200, 177, 222);
+}
+
+.list__link:focus {
+    outline: 2px solid yellow;
+}
+
+.list__link:hover {
+    color: rgb(0, 53, 109);
+    outline:none;
+}
+
+.list__link:active {
+    color:aqua
+}
+
+.section__content {
+    display: flex;
+    margin: 10px;
+}
+
+.section__header {
+    color: rgb(28, 24, 24);
+    background-color: rgb(207, 211, 211);
+    text-align: left;
+    padding: 7px;
+    font-weight: normal;
+    box-shadow: 5px 5px 11px -4px #34344a;
+    margin: 10px;
+}
+
+.section__text {
+    color: rgb(28, 24, 24);
+    padding: 10px;
+
+}
+
+.section__specialText {
+    color: rgb(163, 37, 113);
+}
+
+.tabele {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.table__header {
+    background-color: rgb(195, 183, 233);
+    color: white;
+    font-weight: normal;
+}
+
+.table__row:nth-child(even) {
+    background-color: #eee;
+}
+
+.table__row:hover {
+    background-color: #ddd;
+}
+
+.scrollableContainere {
+    overflow-x: auto;
+}
+
+.body--withoutImage {
+    background-image: none;
+    background-color: #ababb0;
+}
+
+.footer{
+    background-color: #6b5592;
+    padding: 10px;
+    text-align: center;
+    color: #ababb0;
+   
+}
