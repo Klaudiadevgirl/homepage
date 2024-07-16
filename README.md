@@ -1,9 +1,9 @@
-# Klaudia Łapińska - moja strona
+# Klaudia Łapińska - my website
 
 ## Demo
 
 https://klaudiadevgirl.github.io/homepage/
 
-## Opis
+## Description
 
-Moja pierwsza strona, co nieco o mnie.
+My first website, some information about me. I used the BEM convention.
