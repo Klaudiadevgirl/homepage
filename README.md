@@ -6,4 +6,4 @@ https://klaudiadevgirl.github.io/homepage/
 
 ## Description
 
-My first website, some information about me. I used the BEM convention.
+My first website, some information about me. I used the BEM convention, flex. ES6+ fetures.
